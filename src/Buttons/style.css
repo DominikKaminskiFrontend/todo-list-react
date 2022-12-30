@@ -1,0 +1,59 @@
+.form__button {
+    padding: 12px;
+    border: none;
+    background-color: hsl(180, 100%, 25%);
+    color: whitesmoke;
+    font-size: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.form__button:hover {
+    background-color: hsl(180, 97%, 35%);
+    transform: scale(1.1);
+}
+
+.form__button:active {
+    background-color: hsl(180, 97%, 40%);
+}
+
+.section__buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 449px) {
+    .section__buttons {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+}
+
+.task__option {
+    border: none;
+    padding: 9px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: end;
+    color: rgb(98, 89, 89);
+    background-color: inherit;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.task__option:hover {
+    color: hsl(0, 5%, 55%);
+}
+
+.task__option:disabled {
+    color: #ccc;
+}

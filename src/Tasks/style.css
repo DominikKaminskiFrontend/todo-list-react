@@ -1,0 +1,82 @@
+.task__buttonDone {
+    width: 30px;
+    height: 30px;
+    color: white;
+    border: none;
+    background-color: green;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.task__button--hide {
+    display: none;
+}
+
+.task__button--done {
+    text-decoration: line-through;
+    margin: 0;
+}
+
+
+.task__buttonDone:hover {
+    background-color: hsl(120, 100%, 35%);
+}
+
+.task__buttonDone:active {
+    background-color: hsl(120, 100%, 45%);
+}
+
+.task__buttonRemove {
+    height: 30px;
+    border: none;
+    background-color: hsl(0, 100%, 45%);
+    transition: 0.5s;
+    text-align: center;
+    flex-basis: 100%;
+    cursor: pointer;
+}
+
+.task__buttonRemove:hover {
+    background-color: hsl(0, 100%, 60%);
+}
+
+.task__buttonRemove:active {
+    background-color: hsl(0, 100%, 80%);
+}
+
+.task__option {
+    border: none;
+    padding: 9px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: end;
+    color: rgb(98, 89, 89);
+    background-color: inherit;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.task__option:hover {
+    color: hsl(0, 5%, 55%);
+}
+
+.task__option:disabled {
+    color: #ccc;
+}
+
+.section__tasks {
+    padding: 0;
+}
+
+.form__li {
+    font-weight: 400;
+    font-size: 0.8em;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 10px;
+    align-items: center;
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+    border-bottom: 5px solid whitesmoke;
+}
