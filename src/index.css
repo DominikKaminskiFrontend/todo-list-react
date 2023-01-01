@@ -10,7 +10,7 @@ html {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   max-width: 900px;
-  background-color: whitesmoke;
+  background-color: rgba(237, 231, 231, 0.88);
   margin: 0 auto;
   word-break: break-word;
 }
