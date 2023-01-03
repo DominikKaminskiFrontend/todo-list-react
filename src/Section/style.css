@@ -23,3 +23,18 @@
     font-size: 24px;
     padding: 10px;
 }
+
+.section__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 449px) {
+    .section__header {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+}
