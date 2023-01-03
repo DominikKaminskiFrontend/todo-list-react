@@ -17,20 +17,9 @@
     background-color: hsl(180, 97%, 40%);
 }
 
-.section__buttons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 
-}
 
 @media screen and (max-width: 449px) {
-    .section__buttons {
-        display: flex;
-        flex-direction: column;
-        flex-basis: 100%;
-    }
-
     .buttons {
         display: flex;
         flex-direction: column;
@@ -38,7 +27,7 @@
     }
 }
 
-.task__option {
+.button__option {
     border: none;
     padding: 9px;
     font-size: 16px;
@@ -50,10 +39,10 @@
     cursor: pointer;
 }
 
-.task__option:hover {
+.button__option:hover {
     color: hsl(0, 5%, 55%);
 }
 
-.task__option:disabled {
+.button__option:disabled {
     color: #ccc;
 }
