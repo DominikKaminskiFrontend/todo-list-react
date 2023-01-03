@@ -12,10 +12,10 @@
   Simple To Do List for educational purposes. 
   Now in React.js 
   ***
- https://dominikkaminskifrontend.github.io/ToDoList/
+[ https://dominikkaminskifrontend.github.io/ToDoList/](https://dominikkaminskifrontend.github.io/todo-list-react/)
 
    ## Preview     
-![](/img/ToDoListPreview.gif)
+![](/public/ToDoListPreview.gif)
 
   Page done in **educational purposes**
   It contains basic:
