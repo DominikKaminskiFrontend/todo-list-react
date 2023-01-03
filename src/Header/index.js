@@ -1,8 +1,7 @@
-
-const Header = ({ title }) => (
+const PageHeader = ({ title }) => (
     <header>
         <h1>{title}</h1>
     </header>
 );
 
-export default Header;
+export default PageHeader;
