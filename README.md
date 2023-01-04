@@ -34,9 +34,16 @@
   -  _object array_   
   -  _immutablity_  
   4. **_React.js_**:  
-   - _Node.js_
- - 
-  
+   - _Node.js_  
+   - _create-react-app_  
+   - _Babel_   
+   - _package.json_  
+   - _Webpack_    
+   - _ReactDOM_   
+   - _ESLint_  
+   - _Jest_  
+   - _PostCSS_   
+   
   During learning it will become more advenced.     
   ***
 ## Project Idea  
